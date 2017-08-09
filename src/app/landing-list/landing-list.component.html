@@ -1,0 +1,6 @@
+<div class="container">
+  <div class="row">
+    <app-landing-item *ngFor="let item of landingItems; let i = index" [landingItem]="item" [flip]="i % 2 == 0"></app-landing-item>
+    <hr />
+  </div>
+</div>

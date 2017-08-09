@@ -1,0 +1,15 @@
+nav {
+  margin-bottom: 0;
+}
+.navbar.navbar-custom{
+  background-color: #2f3ba1;
+}
+.navbar.navbar-custom a{
+  color: #a4a49e;
+}
+.navbar.navbar-custom .active a{
+  color: #fff;
+}
+.navbar.navbar-custom .active{
+  background-color: #191e80;
+}
